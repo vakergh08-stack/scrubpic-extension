@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ScrubPic – Remove Photo Metadata Offline",
+  "short_name": "ScrubPic",
+  "version": "1.0.0",
+  "description": "Remove EXIF, GPS location, XMP and C2PA data from JPEG, PNG and WebP. Works offline; the image is never re-encoded or uploaded.",
+  "action": {
+    "default_title": "Clean photos with ScrubPic"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "homepage_url": "https://scrubpic.com/"
+}
